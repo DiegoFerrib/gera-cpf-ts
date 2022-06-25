@@ -1,0 +1,39 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #261447;
+}
+
+main {
+  text-align: center;
+  background-color: #c0bda5;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+main>section {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+
+main>button {
+  padding: 0.5rem 1rem;
+  background-color: #ff3864;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1rem;
+}
+
+main>button:hover {
+  background-color: #9e0e2e;
+}
